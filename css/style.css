@@ -1,0 +1,32 @@
+/*
+    Basic Setup
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  bottom: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: inherit;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: rgb(0, 139, 35);
+}
+
+/*****************************************
+    Home Page
+*****************************************/
+.main {
+  width: 100%;
+}
+
+/*****************************************
+    Footer
+*****************************************/

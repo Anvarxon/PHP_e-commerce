@@ -1,0 +1,112 @@
+/*****************************************
+    Product
+*****************************************/
+.product {
+    background-color: #fff;
+    position: relative;
+  }
+  .product-list {
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .mission {
+    text-align: center;
+    margin-top: 3rem;
+    color: #777;
+    margin-bottom: 3rem;
+  }
+  .mission > h1 {
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+  }
+  .mission > p {
+    font-size: 1.6rem;
+  }
+  .product {
+    color: #777;
+  }
+  .product-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .product-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 120rem;
+    margin: 0 auto;
+  }
+  .product-container2 > * {
+    width: 38rem;
+    margin-top: 2rem;
+    box-shadow: 0 0.2rem 1rem rgba(53, 53, 53, 0.35);
+    margin-bottom: 2rem;
+  }
+  .product-container > * {
+    width: 38rem;
+    margin-top: 2rem;
+    box-shadow: 0 0.2rem 1rem rgba(53, 53, 53, 0.35);
+  }
+  .gourmet {
+    width: 38rem;
+    height: 38rem;
+  }
+  .samsung {
+    width: 38rem;
+    height: 38rem;
+  }
+  .oneplus {
+    width: 38rem;
+    height: 38rem;
+  }
+  
+  .product-details {
+    padding: 2rem 2.5rem;
+  }
+  .product-details > h2 {
+    font-size: 3rem;
+  }
+  .product_price {
+    font-size: 1.6rem;
+    color: rgb(32, 155, 255);
+    font-weight: 500;
+  }
+  .info {
+    font-size: 1.6rem;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32, 155, 255);
+  }
+  .details:link,
+  .details:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    background-image: rgb(0, 139, 35);
+    padding: 1rem 2.5rem;
+    border-radius: 100px;
+    color: #fff;
+    transition: all 0.2s;
+  }
+  .details:hover {
+    transform: translateY(-0.2rem);
+  }
+  .details:active {
+    transform: translate(0);
+  }
+  .go {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .cae {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .bev {
+    text-align: center;
+    margin: 3rem 0;
+  }

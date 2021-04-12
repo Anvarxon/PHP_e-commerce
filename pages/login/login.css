@@ -1,0 +1,146 @@
+/*
+    Basic Setup
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  bottom: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: inherit;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: rgb(0, 139, 35);
+}
+/*****************************************
+    Login Page
+*****************************************/
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+.login {
+  width: 45rem;
+  height: 50rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 1rem rgba(53, 53, 53, 0.5);
+}
+.login__user-name {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.user-name {
+  height: 3rem;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+.user-name:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(52, 147, 255);
+}
+.password {
+  height: 3rem;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+.password:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(52, 147, 255);
+}
+.login__password {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+.label {
+  padding-bottom: 0.5rem;
+  color: rgb(150, 150, 150);
+  font-family: inherit;
+  font-size: 1.3rem;
+}
+
+.social {
+  width: 3rem;
+  height: 3rem;
+}
+.login__forget {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.login__login {
+  background: rgb(0, 139, 35);
+  width: 16rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.login__login:hover {
+  transform: translateY(-0.2rem);
+}
+.login__login:active {
+  transform: translate(0);
+}
+.login__login:focus {
+  outline: none;
+}
+
+.login__sign-up {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.social {
+  margin-left: 1rem;
+}
+.social-fb {
+  border-radius: 100px;
+}
+
+.success {
+  position: absolute;
+  color: green;
+  top: 38rem;
+  left: 45%;
+  font-size: 2rem;
+  display: none;
+}
+.fail {
+  position: absolute;
+  color: red;
+  top: 38rem;
+  left: 44.4%;
+  font-size: 2rem;
+  display: none;
+}

@@ -1,0 +1,118 @@
+/*
+    Basic Setup
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  bottom: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: inherit;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: rgb(0, 139, 35);
+}
+
+/*****************************************
+    Home Page
+*****************************************/
+.page-wrap {
+  margin: 4rem;
+  box-shadow: 0 0.2rem 1rem rgba(53, 53, 53, 0.7);
+  background-color: #fff;
+}
+.main {
+  width: 100%;
+}
+.header > nav {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #eee;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #777;
+  margin-left: 2rem;
+  transition: all 0.2s;
+}
+.logo:hover {
+  transform: scale(1.1);
+  color: rgb(0, 139, 35);
+}
+.middle {
+  margin-left: 9rem;
+}
+.middle > * {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #777;
+}
+.middle > a:not(:first-child) {
+  margin-left: 2rem;
+}
+.middle > a:not(:last-child) {
+  padding-bottom: 0.3rem;
+}
+.middle > a:hover:not(:last-child) {
+  border-bottom: 0.2rem solid rgb(0, 139, 35);
+}
+.shop {
+  padding-bottom: 0.3rem;
+  border-bottom: 0.2rem solid rgb(0, 139, 35);
+}
+.sign {
+  margin-right: 2rem;
+}
+.sign > * {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #777;
+  padding-bottom: 0.3rem;
+}
+.sign > a:not(:last-child) {
+  margin-right: 2rem;
+}
+.sign > *:hover {
+  border-bottom: 0.2rem solid rgb(0, 139, 35);
+}
+
+.container {
+  padding: 30rem;
+  text-align: center;
+  font-size: 3rem;
+}
+/*****************************************
+    Footer
+*****************************************/
+.footer {
+  background-color: #fff;
+  color: #777;
+  font-size: 1.6rem;
+  border-top: 1px solid #eee;
+}
+.contact {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerDetails {
+  height: 100vh;
+  background-color: red;
+}
